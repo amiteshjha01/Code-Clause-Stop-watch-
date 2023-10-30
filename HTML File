@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Timer || Stopwatch</title>
+</head>
+<body>
+<div class="main-wraper">
+    <div class="sw-wraper">
+            <div class="sw-time">
+                <span class="sw-times">00</span>
+                <span class="sw-times">00</span>
+                <span class="sw-times">00</span>
+            </div>
+            <div class="sw-buttons">
+                <button class="sw-button">Start</button>
+                <button class="sw-button">Stop</button>
+                <button class="sw-button">Reset</button>
+            </div>
+    </div>
+
+
+    <div class="timer-wraper">
+        <div class="timer-time">
+            <input class="timer-input " type="number">:
+            <input class="timer-input " type="number">:
+            <input class="timer-input " type="number">
+        </div>
+        <div class="timer-buttons">
+            <button class="timer-button ">Start</button>
+            <button class="timer-button ">Pause</button>
+            <button class="timer-button ">Stop</button>
+        </div>
+    </div>
+</div>
+
+<button id="btn">Change To:- Stopwatch</button>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
